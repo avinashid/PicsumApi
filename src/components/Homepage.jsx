@@ -6,6 +6,7 @@ import Subhead from "./Subhead";
 import Random from "./Random";
 import Grayscale from "./Grayscale";
 import Favourite from "./Favourite";
+import img from "../assets/Icon.png";
 const { Header, Content, Footer } = Layout;
 
 const Homepage = () => {
@@ -35,7 +36,7 @@ const Homepage = () => {
         }}
       >
         <div className="text-center flex h-full flex-row px-8 items-center justify-around gap-6">
-          <img className={`${collapse && "md:hidden"}`} src="/Icon.png" />
+          <img className={`${collapse && "md:hidden"}`} src={img} />
           <div className="text-xl">Random Image App</div>
         </div>
       </Header>

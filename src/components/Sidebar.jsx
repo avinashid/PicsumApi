@@ -3,6 +3,7 @@ import { Menu, Segmented } from "antd";
 import { GiPerspectiveDiceSixFacesRandom } from "react-icons/gi";
 import { AiFillPicture } from "react-icons/ai";
 import { MdFavorite } from "react-icons/md";
+import img from "../assets/Icon.png";
 
 const Sidebar = ({ collapse, current, setCurrent }) => {
   return (
@@ -13,7 +14,7 @@ const Sidebar = ({ collapse, current, setCurrent }) => {
     >
       <div className="my-4 w-full flex flex-col items-center">
         <div className="w-full">
-          <img src="/Icon.png" className="m-auto mb-4" />
+          <img src={img} className="m-auto mb-4" />
           <hr className="shadow" />
         </div>
         <div className="flex flex-col gap-3 my-8">
